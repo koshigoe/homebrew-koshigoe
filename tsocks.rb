@@ -11,7 +11,7 @@ require 'formula'
 class Tsocks < Formula
   url 'http://distfiles.macports.org/tsocks/tsocks-1.8.4.tar.bz2'
   homepage 'http://tsocks.sourceforge.net/'
-  md5 'dccf57d632136b62dbe7ec7970b6c3e3'
+  sha1 'e72157e1431b789e99a307efe69cd5d55f24f9d0'
   def patches
     {
       :p0 => [
