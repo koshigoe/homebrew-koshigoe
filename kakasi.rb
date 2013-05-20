@@ -6,7 +6,7 @@ require 'formula'
 class Kakasi < Formula
   homepage 'http://kakasi.namazu.org/index.html.ja'
   url 'http://kakasi.namazu.org/stable/kakasi-2.3.4.tar.gz'
-  md5 '4eff51aafbd56c9635791a20c03efa8f'
+  sha1 'ab95a226f301955d2e8ae0d347afbb567e25fbe7'
 
   def patches
     {
