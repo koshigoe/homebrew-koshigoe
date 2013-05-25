@@ -13,10 +13,8 @@ class Tsocks < Formula
   homepage 'http://tsocks.sourceforge.net/'
   sha1 'e72157e1431b789e99a307efe69cd5d55f24f9d0'
 
-  if MacOS.xcode_version.to_f >= 4.3
-    depends_on 'autoconf' => :build
-    depends_on 'automake' => :build
-  end
+  depends_on :autoconf
+  depends_on :automake
 
   def patches
     {
