@@ -10,7 +10,7 @@ class Kakasi < Formula
 
   def patches
     {
-      :p0 => ['https://raw.github.com/gist/2575121/b22076ebda59296137ef065bae33049a0b9213c8/kakasi-2.3.4-configure.diff']
+      :p0 => ['https://gist.github.com/koshigoe/2575121/raw/b22076ebda59296137ef065bae33049a0b9213c8/kakasi-2.3.4-configure.diff']
     }
   end
 
