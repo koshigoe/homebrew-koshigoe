@@ -10,7 +10,7 @@ class Pgmodeler < Formula
   patch DATA
 
   def install
-    system '/usr/local/opt/qt5/bin/qmake pgmodeler.pro'
+    system "/usr/local/opt/qt5/bin/qmake PREFIX+=#{prefix}/pgmodeler.app/Contents pgmodeler.pro"
     system "make"
     system "make install"
   end
