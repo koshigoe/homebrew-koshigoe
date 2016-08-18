@@ -37,6 +37,8 @@ index 06edd7b..679baa3 100644
 -  PGSQL_INC = /Library/PostgreSQL/9.3/include
 +  PGSQL_LIB = /usr/local/opt/postgresql/lib/libpq.dylib
 +  PGSQL_INC = /usr/local/opt/postgresql/include
-   XML_INC = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
-   XML_LIB = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libxml2.dylib
+-  XML_INC = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
+-  XML_LIB = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libxml2.dylib
++  XML_INC = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/libxml2
++  XML_LIB = /usr/lib/libxml2.dylib
  
